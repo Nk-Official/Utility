@@ -31,7 +31,7 @@ Pod::Spec.new do |spec|
 
   
 
-  spec.source_files  = "Utility"
+  spec.source_files  =  "Utility", "Utility/**/*.{swift}"
   spec.exclude_files = "Classes/Exclude"
 
     # spec.resource  = "icon.png"
